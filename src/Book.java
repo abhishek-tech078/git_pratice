@@ -6,6 +6,7 @@ class Book {
     String title;
     String Author;
     boolean issued;
+
     void displayinfo(){
         System.out.println(title+"by"+Author);
     }
